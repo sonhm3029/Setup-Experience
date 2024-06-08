@@ -1,11 +1,19 @@
 # CUDA INSTALLATION GUIDE
 
-## INSTALLATION REQUIREMENT
+## INSTALLATION STEP
 
-- nvidia driver
-- cudatoolkit
-- cudnn
-- nccl (for multiple gpus)
+**Note:** Check version compatible for nvidia-driver, gcc, cuda toolkit, nccl on Nvidia official webpage
+
+Date: 09/07/2024:
+
+- [Link 1](https://docs.nvidia.com/deploy/cuda-compatibility/)
+- [Link 2](https://docs.nvidia.com/deploy/cuda-compatibility/)
+
+1. Install nvidia driver
+2. Install gcc
+3. Install cudatoolkit
+4. Install cudnn
+5. Install nccl (for multiple gpus)
 
 ## INSTALL CUDA 12.2 ON ROCKY LINUX 9
 
